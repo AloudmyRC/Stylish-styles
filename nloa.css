@@ -1,0 +1,31 @@
+body[style*="../Skin/images/zh-CN/Desktop/单纯绿色.gif)"]{
+    background:none!important;
+}
+body{background:#fff}
+/* body::before{
+    content: '';
+    position: fixed;
+    left: -48px;
+    right: -48px;
+    top: -48px;
+    bottom: -48px;
+    background: url(http://api.dujin.org/bing/1366.php);
+    background-size: cover;
+    filter: blur(24px);
+    z-index: -1;
+} */
+
+
+#div_Header_Title{background:rgba(0,0,0,.2)}
+#div_Header_Title::before{
+    content: "能龙协同办公平台";
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    text-shadow: 1px 1px 1px #000;
+}
+#img_Logo{display:none;}
+#div_Header_Title1{background:rgba(0,0,0,.2)}
+#div_Title2{background:rgba(0,0,0,.2);border:none;}
+#div_Header_Menu_Title{border:none;}
